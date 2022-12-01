@@ -9,7 +9,7 @@ jobs:
 
 create-deployment artifacts
 name: Test create deploy
-runs-on:ubuntu-latest
+runs-on: ubuntu-latest
 -steps: actions/checkout@v2
 -name:Compile CSS and javascript
 run:
